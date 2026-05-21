@@ -1,0 +1,17 @@
+name: thermal_core
+description: Real-time device temperature monitor for Android
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.68.0
+  google_fonts: ^6.2.1
+  permission_handler: ^11.3.1
+
+flutter:
+  uses-material-design: true
